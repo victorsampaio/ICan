@@ -20,6 +20,10 @@
             android:name=".HymnActivity"
             android:label="@string/title_activity_hymn" >
         </activity>
+        <activity
+            android:name=".images.ImagesActivity"
+            android:label="@string/title_activity_images" >
+        </activity>
     </application>
 
 </manifest>

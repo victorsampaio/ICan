@@ -1,6 +1,7 @@
 package com.br.ican;
 
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,9 +9,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.br.ican.images.ImagesActivity;
+
 
 public class ICanMainActivity extends ActionBarActivity {
 
+    // Variable
+    // Variaveis que serão utilizadas - Botões que contem Imagem
     ImageButton btGoHymn, btGoImages;
 
     @Override
@@ -19,17 +24,33 @@ public class ICanMainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_ican_main);
 
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
+
+
         //Go Hymn
+        // Variavel efetuando referencia ao arquivo xml por id
         btGoHymn = (ImageButton)findViewById(R.id.imgbGoHymn);
+        // Variavel atribuindo a funcao de click ao metodo que executa a ação de click
         btGoHymn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                //Intent for action to new screen - Activity
                 Intent itHymn = new Intent(getApplicationContext(), HymnActivity.class);
                 startActivity(itHymn);
             }
         });
 
-
+        //---IMAGES
+        btGoImages =(ImageButton)findViewById(R.id.imgbGobImages);
+        btGoImages.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent itImg = new Intent(getApplicationContext(), ImagesActivity.class);
+                startActivity(itImg);
+            }
+        });
     }
 
 
