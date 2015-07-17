@@ -1,9 +1,9 @@
 package com.br.ican;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,30 +27,29 @@ public class ICanMainActivity extends ActionBarActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
-
-        //Go Hymn
-        // Variavel efetuando referencia ao arquivo xml por id
-        btGoHymn = (ImageButton)findViewById(R.id.imgbGoHymn);
-        // Variavel atribuindo a funcao de click ao metodo que executa a ação de click
+        btGoHymn = (ImageButton) findViewById(R.id.imgbGoHymn);
         btGoHymn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                //Intent for action to new screen - Activity
                 Intent itHymn = new Intent(getApplicationContext(), HymnActivity.class);
                 startActivity(itHymn);
+
             }
         });
 
-        //---IMAGES
-        btGoImages =(ImageButton)findViewById(R.id.imgbGobImages);
+        btGoImages = (ImageButton) findViewById(R.id.imgbGoImages);
         btGoImages.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent itImg = new Intent(getApplicationContext(), ImagesActivity.class);
-                startActivity(itImg);
+
+                Intent itImages = new Intent(getApplicationContext(), ImagesActivity.class);
+                startActivity(itImages);
+
             }
         });
+
+
     }
 
 

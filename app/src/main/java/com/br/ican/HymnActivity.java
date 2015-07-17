@@ -2,6 +2,7 @@ package com.br.ican;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,7 +16,7 @@ import static com.br.ican.R.raw.canada_hymn;
 
 public class HymnActivity extends ActionBarActivity implements OnClickListener {
 
-    ImageButton btStart, btStop;
+    ImageButton btStart, btStop, btPause;
     MediaPlayer player;
 
     @Override
@@ -23,40 +24,40 @@ public class HymnActivity extends ActionBarActivity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hymn);
 
-        btStart = (ImageButton)findViewById(R.id.btn_play);
-        btStop = (ImageButton)findViewById(R.id.btn_stop);
-        //player = MediaPlayer.create(this, canada_hymn);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
+        btStart = (ImageButton) findViewById(R.id.btn_play);
+        btStop = (ImageButton) findViewById(R.id.btn_stop);
+        btPause = (ImageButton)findViewById(R.id.btn_pause);
+
+        player = MediaPlayer.create(this, canada_hymn);
         btStart.setOnClickListener(this);
         btStop.setOnClickListener(this);
-
+        btPause.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View v) {
 
-        try {
+        if (v == btStart) {
+            player.start();
+            btStart.setVisibility(View.INVISIBLE);
+            btPause.setVisibility(View.VISIBLE);
+        } else if (v == btPause) {
+            player.pause();
 
-            if (v == btStart){
-                if (player == MediaPlayer.create(this, canada_hymn)){
-                player.stop();
-                }else {
-                    player = new MediaPlayer();
-                    player = MediaPlayer.create(this, canada_hymn);
-                    player.start();
-                }
-            }else if (v == btStop){
-                //player.isPlaying();
-                player.stop();
-            }
+            btStart.setVisibility(View.VISIBLE);
+            btPause.setVisibility(View.INVISIBLE);
 
-        }catch (Exception e){
-
+        } else if (v == btStop) {
+            //mp.stop();
+            player.pause();
+            player.seekTo(0);
+            btStart.setVisibility(View.VISIBLE);
         }
-
     }
-
 
 
     @Override
