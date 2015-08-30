@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ICan</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Info</string>
     <string name="ican_title_main">I CANanda</string>
     <string name="title_activity_hymn">Hymn</string>
     <string name="ican_hymn_main">I CANanda</string>
@@ -15,6 +15,7 @@ God keep our land glorious and free! O Canada, we stand on guard for thee.
 O Canada, we stand on guard for thee. </string>
 
     <string name="title_activity_images">ICan Images</string>
+    <string name="title_activity_cities">CitiesActivity</string>
 
 
 </resources>

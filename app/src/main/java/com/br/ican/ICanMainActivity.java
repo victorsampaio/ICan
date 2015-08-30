@@ -16,7 +16,7 @@ public class ICanMainActivity extends ActionBarActivity {
 
     // Variable
     // Variaveis que serão utilizadas - Botões que contem Imagem
-    ImageButton btGoHymn, btGoImages;
+    ImageButton btGoHymn, btGoImages, btGoCities;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +49,16 @@ public class ICanMainActivity extends ActionBarActivity {
             }
         });
 
+        btGoCities = (ImageButton) findViewById(R.id.imgbGoCities);
+        btGoCities.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent itCities = new Intent(getApplicationContext(), ImagesActivity.class);
+                startActivity(itCities);
+
+            }
+        });
 
     }
 

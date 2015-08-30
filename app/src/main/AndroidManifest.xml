@@ -24,6 +24,10 @@
             android:name=".images.ImagesActivity"
             android:label="@string/title_activity_images" >
         </activity>
+        <activity
+            android:name=".CitiesActivity"
+            android:label="@string/title_activity_cities" >
+        </activity>
     </application>
 
 </manifest>

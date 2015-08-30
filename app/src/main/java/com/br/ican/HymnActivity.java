@@ -2,14 +2,13 @@ package com.br.ican;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import static com.br.ican.R.raw.canada_hymn;
 
@@ -24,8 +23,8 @@ public class HymnActivity extends ActionBarActivity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hymn);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        //ActionBar actionBar = getSupportActionBar();
+        //actionBar.hide();
 
         btStart = (ImageButton) findViewById(R.id.btn_play);
         btStop = (ImageButton) findViewById(R.id.btn_stop);
@@ -76,6 +75,7 @@ public class HymnActivity extends ActionBarActivity implements OnClickListener {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(getApplicationContext(), "Victorfsampaio@gmail.com", Toast.LENGTH_LONG).show();
             return true;
         }
 
