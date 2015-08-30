@@ -54,7 +54,7 @@ public class ICanMainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-                Intent itCities = new Intent(getApplicationContext(), ImagesActivity.class);
+                Intent itCities = new Intent(getApplicationContext(), CitiesActivity.class);
                 startActivity(itCities);
 
             }

@@ -15,7 +15,8 @@ God keep our land glorious and free! O Canada, we stand on guard for thee.
 O Canada, we stand on guard for thee. </string>
 
     <string name="title_activity_images">ICan Images</string>
-    <string name="title_activity_cities">CitiesActivity</string>
+    <string name="title_activity_cities">Cities</string>
+    <string name="text0">City</string>
 
 
 </resources>
