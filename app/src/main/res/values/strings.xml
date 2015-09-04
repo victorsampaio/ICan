@@ -17,6 +17,11 @@ O Canada, we stand on guard for thee. </string>
     <string name="title_activity_images">ICan Images</string>
     <string name="title_activity_cities">Cities</string>
     <string name="text0">City</string>
+    <string name="title_activity_alberta">AlbertaActivity</string>
+    <string name="title_activity_british_columbia">BritishColumbiaActivity</string>
+    <string name="title_activity_manitoba">ManitobaActivity</string>
+    <string name="title_activity_ontario">OntarioActivity</string>
+    <string name="title_activity_quebec">QuebecActivity</string>
 
 
 </resources>

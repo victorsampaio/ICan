@@ -25,8 +25,28 @@
             android:label="@string/title_activity_images" >
         </activity>
         <activity
-            android:name=".CitiesActivity"
+            android:name=".ProvincesActivity"
             android:label="@string/title_activity_cities" >
+        </activity>
+        <activity
+            android:name=".provinces.alberta.AlbertaActivity"
+            android:label="@string/title_activity_alberta" >
+        </activity>
+        <activity
+            android:name=".provinces.britishcolumbia.BritishColumbiaActivity"
+            android:label="@string/title_activity_british_columbia" >
+        </activity>
+        <activity
+            android:name=".provinces.manitoba.ManitobaActivity"
+            android:label="@string/title_activity_manitoba" >
+        </activity>
+        <activity
+            android:name=".provinces.ontario.OntarioActivity"
+            android:label="@string/title_activity_ontario" >
+        </activity>
+        <activity
+            android:name=".provinces.quebec.QuebecActivity"
+            android:label="@string/title_activity_quebec" >
         </activity>
     </application>
 
