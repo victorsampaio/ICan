@@ -13,20 +13,29 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.br.ican.provinces.alberta.AlbertaActivity;
+import com.br.ican.provinces.britishcolumbia.BritishColumbiaActivity;
+import com.br.ican.provinces.manitoba.ManitobaActivity;
+import com.br.ican.provinces.newbrunswick.NewBrunswickActivity;
+import com.br.ican.provinces.newfoundlandandlabrador.NewfoundlandandLabradorActivity;
+import com.br.ican.provinces.novascotia.NovaScotiaActivity;
+import com.br.ican.provinces.ontario.OntarioActivity;
+import com.br.ican.provinces.princeedwardisland.PrinceEdwardIslandActivity;
+import com.br.ican.provinces.quebec.QuebecActivity;
+import com.br.ican.provinces.saskatchewan.SaskatchewanActivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class ProvincesActivity extends ActionBarActivity {
 
-    private static final String CitiesScreen = "citiesScreen";
-    ListView listView;
-
     @Override
-    protected void onCreate(Bundle iclicle) {
-        super.onCreate(iclicle);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_provinces);
+
+        String CitiesScreen = "citiesScreen";
+        ListView listView;
+
 
         List<String> lista = new ArrayList<>();
         lista.add(0, "Alberta");
@@ -39,7 +48,7 @@ public class ProvincesActivity extends ActionBarActivity {
         lista.add(7, "Prince Edward Island");
         lista.add(8, "Quebec");
         lista.add(9, "Saskatchewan");
-        lista.add(10, "Ontario");
+
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_list_item_1, lista);
@@ -52,30 +61,28 @@ public class ProvincesActivity extends ActionBarActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Toast.makeText(getApplicationContext(), "CLICKED", Toast.LENGTH_SHORT).show();
 
-                //Toast.makeText(getApplicationContext(),
-                //        ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
 
                 switch (position) {
+
                     case 0:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
                         Intent it0 = new Intent(getApplicationContext(), AlbertaActivity.class);
                         startActivity(it0);
-
                         break;
 
                     case 1:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it1 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it1 = new Intent(getApplicationContext(), BritishColumbiaActivity.class);
                         startActivity(it1);
-
                         break;
+
 
                     case 2:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it2 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it2 = new Intent(getApplicationContext(), ManitobaActivity.class);
                         startActivity(it2);
 
                         break;
@@ -83,78 +90,57 @@ public class ProvincesActivity extends ActionBarActivity {
                     case 3:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it3 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it3 = new Intent(getApplicationContext(), NewBrunswickActivity.class);
                         startActivity(it3);
-
                         break;
-
                     case 4:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it4 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it4 = new Intent(getApplicationContext(), NewfoundlandandLabradorActivity.class);
                         startActivity(it4);
-
                         break;
 
                     case 5:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it5 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it5 = new Intent(getApplicationContext(), NovaScotiaActivity.class);
                         startActivity(it5);
                         break;
-
-
                     case 6:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it6 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it6 = new Intent(getApplicationContext(), OntarioActivity.class);
                         startActivity(it6);
                         break;
 
                     case 7:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it7 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it7 = new Intent(getApplicationContext(), PrinceEdwardIslandActivity.class);
                         startActivity(it7);
                         break;
-
                     case 8:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it8 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it8 = new Intent(getApplicationContext(), QuebecActivity.class);
                         startActivity(it8);
                         break;
 
                     case 9:
                         Toast.makeText(getApplicationContext(),
                                 ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it9 = new Intent(getApplicationContext(), AlbertaActivity.class);
+                        Intent it9 = new Intent(getApplicationContext(), SaskatchewanActivity.class);
                         startActivity(it9);
                         break;
 
-                    case 10:
-                        Toast.makeText(getApplicationContext(),
-                                ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-                        Intent it10 = new Intent(getApplicationContext(), AlbertaActivity.class);
-                        startActivity(it10);
-                        break;
-
                     default:
+
                 }
 
 
             }
         });
 
-        /*
-        String[] cities = new String[]{
-                "Alberta", "British Columbia"
-                ,"Ontario", "Manitoba","Quebec"
-        };
-
-        this.setListAdapter(new ArrayAdapter<String>
-                (this,android.R.layout.simple_list_item_1, cities));
-*/
 
     }
 
@@ -162,7 +148,7 @@ public class ProvincesActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_cities, menu);
+        getMenuInflater().inflate(R.menu.menu_provinces, menu);
         return true;
     }
 

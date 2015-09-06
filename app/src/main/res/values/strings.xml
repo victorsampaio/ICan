@@ -15,13 +15,19 @@ God keep our land glorious and free! O Canada, we stand on guard for thee.
 O Canada, we stand on guard for thee. </string>
 
     <string name="title_activity_images">ICan Images</string>
-    <string name="title_activity_cities">Cities</string>
-    <string name="text0">City</string>
-    <string name="title_activity_alberta">AlbertaActivity</string>
-    <string name="title_activity_british_columbia">BritishColumbiaActivity</string>
-    <string name="title_activity_manitoba">ManitobaActivity</string>
-    <string name="title_activity_ontario">OntarioActivity</string>
-    <string name="title_activity_quebec">QuebecActivity</string>
+
+    <string name="text0">Provinces</string>
+    <string name="title_activity_alberta">Alberta</string>
+    <string name="title_activity_british_columbia">British Columbia</string>
+    <string name="title_activity_manitoba">Manitoba</string>
+    <string name="title_activity_ontario">Ontario</string>
+    <string name="title_activity_quebec">Quebec</string>
+    <string name="title_activity_provinces">Provinces</string>
+    <string name="title_activity_saskatchewan">Saskatchewan</string>
+    <string name="title_activity_new_brunswick">New Brunswick</string>
+    <string name="title_activity_nova_scotia">Nova Scotia</string>
+    <string name="title_activity_prince_edward_island">Prince Edward Island</string>
+    <string name="title_activity_newfoundlandand_labrador">Newfoundland and Labrador</string>
 
 
 </resources>
