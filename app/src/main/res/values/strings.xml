@@ -28,6 +28,14 @@ O Canada, we stand on guard for thee. </string>
     <string name="title_activity_nova_scotia">Nova Scotia</string>
     <string name="title_activity_prince_edward_island">Prince Edward Island</string>
     <string name="title_activity_newfoundlandand_labrador">Newfoundland and Labrador</string>
+    <string name="text_alberta_textA1">Alberta is a western province of Canada. With a population of
+        3645257 in 2011 and an estimated population of 4145992 as of October 1 2014, it is
+        Canada is fourth-most populous province and most populous of Canada is three prairie
+        provinces. It is bounded by the provinces of British Columbia to the west and Saskatchewan
+        to the east, the Northwest Territories to the north, and the US state of Montana to the
+        south. Alberta is one of three Canadian provinces and territories to border only a single
+        US state and is also one of only two provinces that are landlocked</string>
+
 
 
 </resources>
