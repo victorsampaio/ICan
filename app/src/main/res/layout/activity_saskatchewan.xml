@@ -22,7 +22,7 @@
         android:layout_height="200dp"
         android:id="@+id/imageView"
         android:layout_below="@+id/title_alberta"
-        android:background="@drawable/Saskatchewan"
+        android:background="@drawable/saskatchewan"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

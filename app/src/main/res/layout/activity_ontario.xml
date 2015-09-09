@@ -22,7 +22,7 @@
         android:layout_height="200dp"
         android:id="@+id/imageView"
         android:layout_below="@+id/title_alberta"
-        android:background="@drawable/Anonymous_flag_of_Ontario_Canada"
+        android:background="@drawable/ontario"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

@@ -22,7 +22,7 @@
         android:layout_height="200dp"
         android:id="@+id/imageView"
         android:layout_below="@+id/title_alberta"
-        android:background="@drawable/Newfoundland_and_Labrador"
+        android:background="@drawable/newfoundland_and_labrador"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
