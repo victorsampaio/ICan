@@ -11,7 +11,7 @@
         android:id="@+id/title_alberta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title_activity_alberta"
+        android:text="@string/title_activity_quebec"
         android:gravity="center"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -22,7 +22,7 @@
         android:layout_height="200dp"
         android:id="@+id/imageView"
         android:layout_below="@+id/title_alberta"
-        android:background="@drawable/alberta_flag"
+        android:background="@drawable/Flag_of_Quebec"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
