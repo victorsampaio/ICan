@@ -28,6 +28,8 @@ O Canada, we stand on guard for thee. </string>
     <string name="title_activity_nova_scotia">Nova Scotia</string>
     <string name="title_activity_prince_edward_island">Prince Edward Island</string>
     <string name="title_activity_newfoundlandand_labrador">Newfoundland and Labrador</string>
+
+    <!-- Alberta -->
     <string name="text_alberta_textA1">Alberta is a western province of Canada. With a population of
         3645257 in 2011 and an estimated population of 4145992 as of October 1 2014, it is
         Canada is fourth-most populous province and most populous of Canada is three prairie
@@ -36,6 +38,53 @@ O Canada, we stand on guard for thee. </string>
         south. Alberta is one of three Canadian provinces and territories to border only a single
         US state and is also one of only two provinces that are landlocked</string>
 
+    <!-- British Columbia -->
+    <string name="text_british_columbia">British Columbia, also commonly referred to by its initials
+        BC, is a province located on the west coast of Canada.
+        British Columbia is also a component of the Pacific Northwest and the Cascadia bioregion,
+        along with the US states of Oregon and Washington. The province is name was chosen in 1858
+        by members of the Hudson is Bay Company. In 1871, it became the sixth
+        province of Canada. Its Latin motto is Splendor sine occasu Splendour without Diminishment.
+        The capital of British Columbia is Victoria, the fifteenth largest metropolitan region in
+        Canada, named for the Queen who created the Colony of British Columbia.</string>
+
+    <!-- Manitoba -->
+    <string name="text_manitoba">Manitoba is a province located at the longitudinal centre of Canada.
+        It is one of the three prairie provinces and is the fifth-most populous province in Canada,
+        with a population of 1.208.268 as of 2011. Manitoba covers an area of 649.950 square
+        kilometres and has a widely varied landscape the southern and western
+        regions are predominantly prairie grassland, the eastern and northern regions are dominated
+        by the Canadian Shield, and the far northern regions along the Hudson Bay coast are arctic tundra.
+        The province is bounded by Saskatchewan to the west, Ontario to the east, Nunavut and Hudson
+        Bay to the north, and the US states of North Dakota and Minnesota to the south.</string>
+
+    <!-- Ontario -->
+    <string name="text_ontario">Ontario is one of the ten provinces of Canada,
+        located in east central Canada. It is Canada is most populous province by a large margin,
+        accounting for nearly 40 percent of all Canadians, and is the second largest province in
+        total area. Ontario is fourth largest in total area when the territories of the Northwest
+        Territories and Nunavut are included. It is home to the nation is capital city, Ottawa,
+        and the nation is most populous city, Toronto. Ontario is bordered by the province of Manitoba
+        to the west, Hudson Bay and James Bay to the north, and Quebec to the east, and to the south
+        by the US states of  Minnesota, Michigan, Ohio, Pennsylvania and New York.</string>
+
+    <!-- Quebec -->
+    <string name="text_quebec"> </string>
+
+    <!-- Saskatchewan -->
+    <string name="text_saskatchewan"></string>
+
+    <!-- New Brunswick -->
+    <string name="text_new_brunswick"> </string>
+
+    <!-- _Nova Scotia -->
+    <string name="text_nova_scotia"> </string>
+
+    <!-- Prince Edward Island  -->
+    <string name="text_prince_edward_island"></string>
+
+    <!-- Newfoundlandand Labrador -->
+    <string name="text_newfoundlandand_labrador"> </string>
 
 
 </resources>
