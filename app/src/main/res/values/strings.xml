@@ -69,19 +69,50 @@ O Canada, we stand on guard for thee. </string>
         by the US states of  Minnesota, Michigan, Ohio, Pennsylvania and New York.</string>
 
     <!-- Quebec -->
-    <string name="text_quebec"> </string>
+    <string name="text_quebec">Quebec is a province in east-central Canada. It is the only Canadian
+        province that has a predominantly French speaking population, and the only one to have French
+        as its sole provincial official language. Quebec is Canada is largest province by area and
+        its second-largest administrative division; only the territory of Nunavut is larger. It is
+        bordered to the west by the province of Ontario, James Bay, and Hudson Bay, to the north by
+        Hudson Strait and Ungava Bay; to the east by the Gulf of Saint Lawrence and the province of
+        Newfoundland and Labrador; it is bordered on the south by the province of New Brunswick and
+        the U.S. states of Maine, New Hampshire, Vermont, and New York. It also shares maritime borders
+        with Nunavut, Prince Edward Island, and Nova Scotia. </string>
 
     <!-- Saskatchewan -->
-    <string name="text_saskatchewan"></string>
+    <string name="text_saskatchewan">Saskatchewan is a prairie province in Canada, which has a total
+        area of 651.900 square kilometres and a land area of 592.534 square kilometres,
+        the remainder being water area. Saskatchewan is bordered on the west by Alberta, on the north
+        by the Northwest Territories, on the east by Manitoba, and on the south by the American
+        states of Montana and North Dakota. As of December 2013, the population of Saskatchewan was
+        estimated at 1.114.170. Residents primarily live in the southern half of the province.
+        Of the total population, 257.300 live in the province is largest city, Saskatoon, while 210.000
+        live in the provincial capital, Regina. Other major cities include Prince Albert, Moose Jaw,
+        Yorkton, Wynyard, Swift Current, and North Battleford.</string>
 
     <!-- New Brunswick -->
     <string name="text_new_brunswick"> </string>
 
     <!-- _Nova Scotia -->
-    <string name="text_nova_scotia"> </string>
+    <string name="text_nova_scotia">Nova Scotia is one of Canada is three Maritime provinces and
+        constitutes one of the four Atlantic Canada provinces. Its provincial capital is Halifax.
+        Nova Scotia is the second-smallest province in Canada, with an area of 55.284 square
+        kilometres, including Cape Breton and another 3.800 coastal islands. As of 2011,
+        the population was 921.727, making Nova Scotia the second most densely populated province in
+        Canada. </string>
 
     <!-- Prince Edward Island  -->
-    <string name="text_prince_edward_island"></string>
+    <string name="text_prince_edward_island">Prince Edward Island is a province of Canada consisting
+        of the island of the same name, as well as several much smaller islands. It is one of the
+        three Maritime Provinces and is the smallest province in both land area and population.
+        It is the only province of Canada to have no land boundary. The island has several informal
+        names Garden of the Gulf referring to the pastoral scenery and lush agricultural lands
+        throughout the province; and "Birthplace of Confederation or Cradle of Confederation,
+        referring to the Charlottetown Conference in 1864, although PEI did not join Confederation
+        until 1873, when it became the seventh Canadian province. The backbone of the economy is
+        farming, as it produces 25% of Canada is potatoes. Historically, PEI is one of Canada is older
+        settlements and demographically still reflects older immigration to the country, with Celtic,
+        Anglo Saxon and French last names being overwhelmingly dominant to this day.</string>
 
     <!-- Newfoundlandand Labrador -->
     <string name="text_newfoundlandand_labrador"> </string>
